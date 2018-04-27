@@ -39,11 +39,11 @@ tr {
 }
 
 .myButton {
-  @include button($blue)
-  width: $button-width/2;
+  @include button($blue);
+  width: $button-width;
 }
 
 .otherButton {
-@include button($lame-red)
+@include button($lame-red);
   width: $button-width;
 }
